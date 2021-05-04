@@ -1,16 +1,16 @@
 {
-    "name": "laravel/sanctum",
-    "description": "Laravel Sanctum provides a featherweight authentication system for SPAs and simple APIs.",
-    "keywords": ["laravel", "sanctum", "auth"],
+    "name": "laravel/back",
+    "description": "Laravel Backend design pattern.",
+    "keywords": ["laravel", "backend", "request", "response", "service"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/laravel/sanctum/issues",
-        "source": "https://github.com/laravel/sanctum"
+        "issues": "https://github.com/laravel/back/issues",
+        "source": "https://github.com/laravel/back"
     },
     "authors": [
         {
-            "name": "Taylor Otwell",
-            "email": "taylor@laravel.com"
+            "name": "Duc Doan",
+            "email": "ducdoanhoang@gmail.com"
         }
     ],
     "require": {
