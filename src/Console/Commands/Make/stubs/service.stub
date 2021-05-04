@@ -1,0 +1,27 @@
+<?php
+
+namespace {{ namespace }};
+
+use App\Services\BaseService;
+
+class {{ class }} extends BaseService
+{
+    /**
+     * Create a new service instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        //
+    }
+
+    /**
+     * Service main process.
+     *
+     */
+    public function run()
+    {
+        //
+    }
+}

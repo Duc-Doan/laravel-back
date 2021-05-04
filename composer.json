@@ -27,21 +27,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Laravel\\Sanctum\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Laravel\\Sanctum\\Tests\\": "tests/"
+            "Laravel\\Back\\": "src/"
         }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "3.x-dev"
+            "dev-master": "2.x-dev"
         },
         "laravel": {
             "providers": [
-                "Laravel\\Sanctum\\SanctumServiceProvider"
+                "Laravel\\Back\\LaravelBackServiceProvider"
             ]
         }
     },

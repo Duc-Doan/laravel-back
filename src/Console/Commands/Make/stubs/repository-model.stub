@@ -1,0 +1,25 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ namespacedModel }};
+
+class {{ class }}
+{
+     /**
+     * The target model.
+     *
+     * @var {{ model }}
+     */
+    protected ${{ modelVariable }};
+
+    /**
+     * Create a new repository instance.
+     *
+     * @return void
+     */
+    public function __construct({{ model }} ${{ modelVariable }})
+    {
+        $this->{{ modelVariable }} = ${{ modelVariable }};
+    }
+}
